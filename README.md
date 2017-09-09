@@ -1,21 +1,26 @@
-# morpho-web
-Aplicación Web para el análisis morfológico de textos en español.
+# FLASK-Freeling
+Esta aplicación utiliza Freeling para realizar el analisis morfologico para español.
 
-##Instalación
-Para correr la aplicación es necesario tener instalado freeling y su API para python y Flask para la generación del servicio Web.
+## Getting Started
+Para ejecutar es necesario tener instalado freeling (3.1) y el wraper para python, y ejecutarlos con la instrucción.
 
 ```{r, engine='bash', count_lines}
 pip install flask
 python application.py
 ```
-
-En caso de no tener instaldo Freeling puede usar este contenedor de Docker que contiene todas las librerías necesarias para correr la aplicación y la aplicación misma:
+El ambiente Freeling, junto con este codigo se encuentra en el docker 
 
 ```{r, engine='bash', count_lines}
-sudo apt-get update
-sudo apt-get install docker
-sudo docker run -d -p 5000:5000  ficolo/morpho-web python /root/morpho-web/application.py
+docker run -it --name fmweb -p 8000:8000 japeto/freeling-morpho-web /bin/bash
+cd ~/flask-freeling
+python application.py
 ```
 
-Este comando descargará y levantará el contenedor con la aplicación y expondrá el puerto 5000 del contenedor para así poder accederlo a través un navegador usando http://127.0.0.1:5000.
+Ver la ejecución en http://localhost:8000/
+
+## Dependencias
+[FreeLing web page](http://nlp.cs.upc.edu/freeling) 
+[FreeLing repo](https://github.com/TALP-UPC/FreeLing) 
+
+
 
