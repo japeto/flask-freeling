@@ -18,13 +18,13 @@ python application.py
 
 Ver la ejecución en http://localhost:8000/
 
-## Dependencias
-- [FreeLing web page](http://nlp.cs.upc.edu/freeling) 
+## Dependency
 - [FreeLing repo](https://github.com/TALP-UPC/FreeLing) 
+- [Flask] (https://github.com/pallets/flask/)
 
 
 # Referencias
 - [Federico] https://github.com/ficolo/morpho-web
-
+- [FreeLing web page](http://nlp.cs.upc.edu/freeling) 
 
 
