@@ -19,8 +19,12 @@ python application.py
 Ver la ejecución en http://localhost:8000/
 
 ## Dependencias
-[FreeLing web page](http://nlp.cs.upc.edu/freeling) 
-[FreeLing repo](https://github.com/TALP-UPC/FreeLing) 
+- [FreeLing web page](http://nlp.cs.upc.edu/freeling) 
+- [FreeLing repo](https://github.com/TALP-UPC/FreeLing) 
+
+
+# Referencias
+- [Federico] https://github.com/ficolo/morpho-web
 
 
 
