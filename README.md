@@ -20,11 +20,11 @@ Ver la ejecución en http://localhost:8000/
 
 ## Dependency
 - [FreeLing repo](https://github.com/TALP-UPC/FreeLing) 
-- [Flask] (https://github.com/pallets/flask/)
+- [Flask](https://github.com/pallets/flask/)
 
 
 # Referencias
-- [Federico] https://github.com/ficolo/morpho-web
+- [Federico](https://github.com/ficolo/morpho-web)
 - [FreeLing web page](http://nlp.cs.upc.edu/freeling) 
 
 
